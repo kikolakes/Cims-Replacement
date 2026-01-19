@@ -2,8 +2,8 @@
  * @NApiVersion 2.1
  * @NScriptType Suitelet
  */
-define(['N/ui/serverWidget', 'N/record', 'N/search', 'N/runtime', 'N/redirect', 'N/task'],
-    (ui, record, search, runtime, redirect, task) => {
+define([],
+    () => {
 
         const CUSTOM_RECORD_ID = 'customrecord_custom_transaction';
         const CUSTOM_ITEM_LINE_ID = 'customrecord_custom_item_line';
@@ -1159,3 +1159,4 @@ define(['N/ui/serverWidget', 'N/record', 'N/search', 'N/runtime', 'N/redirect', 
 
         return { onRequest };
     });
+
